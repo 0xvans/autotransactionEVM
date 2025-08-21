@@ -13,9 +13,10 @@ Script Python untuk mengirim transaksi ke banyak alamat secara otomatis di jarin
    git clone https://github.com/0xvans/autotransactionEVM
    cd autotransactionEVM
 Install dependencies
+   ```bash
+ pip install web3 python-dotenv
+ pip install -r requirements.txt
 
-pip install web3 python-dotenv
-pip install -r requirements.txt
 Buat file .env
 Di dalam root project, buat file .env lalu isi dengan data berikut:
 
