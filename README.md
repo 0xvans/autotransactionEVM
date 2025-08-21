@@ -37,7 +37,7 @@ CHAIN_ID → chain id (Ethereum Mainnet = 1, Goerli = 5, BSC = 56, Polygon = 137
 ```
 📂 File Konfigurasi
 1. Daftar Alamat Tujuan
-Buat file recipients.txt berisi daftar alamat tujuan, 1 per baris.
+Buat file address_list.txt berisi daftar alamat tujuan, 1 per baris.
 Contoh:
 ```
 0x1234567890abcdef1234567890abcdef12345678,0.01
@@ -71,7 +71,7 @@ PRIVATE_KEY=0xabc123...xyz
 RPC_URL=https://eth-sepolia.g.alchemy.com/v2/your_api_key
 CHAIN_ID=11155111
 ```
-Buat file recipients.txt:
+Buat file address_list.txt:
 ```
 0xaaa1111111111111111111111111111111111111,0.01
 0xbbb2222222222222222222222222222222222222,0.02
