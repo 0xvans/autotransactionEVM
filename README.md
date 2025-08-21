@@ -67,9 +67,9 @@ pip install -r requirements.txt
 ```
 Buat file .env:
 ```
-PRIVATE_KEY=0xabc123...xyz
-RPC_URL=https://eth-sepolia.g.alchemy.com/v2/your_api_key
-CHAIN_ID=11155111
+PRIVATE_KEY=0xPRIVATE_KEY_ANDA
+RPC_URL=https://mainnet.base.org
+WALLET_ADDRESS=0xAlamatWalletAnda
 ```
 Buat file address_list.txt:
 ```
